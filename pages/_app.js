@@ -2,7 +2,7 @@ import '../src/App.css';
 import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../config/firebase';
+import { db } from '../src/config/firebase';
 import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import TidioChat from '../src/components/TidioChat'; 
